@@ -164,3 +164,71 @@ input{
     font-size: 8px;
     font-family: 'Merriweather', serif;
    }
+
+
+@media all and (max-width:800px){
+  h1{
+    font-size:30px;
+  }
+  .selected h4{
+    font-size: 20px;
+    
+}
+.selected .description{
+    font-size: 12px;
+    
+}
+   h4, .price, .discription{
+    position: absolute;
+    left:0;
+  } 
+  h3{
+    text-align:center;
+  }
+  
+}
+
+@media all and (max-width:500px){
+  h1{
+   font-size:35px;
+    font-weight:bolder;
+  }
+  
+  .selected h4{
+    font-size: 20px;
+    
+}
+.selected .description{
+    font-size: 12px;
+    
+}
+  h4, .price, .description{
+    position: absolute;
+    left:0;
+  } 
+  h3{
+    text-align:center;
+  }
+  
+  .italic{
+    width:90%;
+  }
+  .footerRolex{
+    text-align:center;
+  }
+  .item{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex: 1;
+    margin: 5px;
+    height: 70vh;
+    width:100%;
+    position: relative;
+}
+
+.selected{
+    flex:4;
+}
+  
+}
