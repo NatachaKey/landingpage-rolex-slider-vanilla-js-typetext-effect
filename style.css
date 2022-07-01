@@ -222,7 +222,7 @@ input{
     background-position: center;
     flex: 1;
     margin: 5px;
-    height: 70vh;
+    height: 80vh;
     width:100%;
     position: relative;
 }
@@ -230,5 +230,13 @@ input{
 .selected{
     flex:4;
 }
-  
+  .space{
+   
+    font-size:30px;
+  }
+  .btn{
+   
+    font-size: 15px;
+    width:95%
+}
 }
