@@ -9,14 +9,14 @@ body{
 }
 
 h1{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Kanit', sans-serif;
   font-size:60px;
   color: #fff;
 }
 
 h4, p{
 color: #212121;
-font-family: 'Libre Baskerville', serif;
+font-family: 'Kanit', sans-serif;
 }
 
 
@@ -58,8 +58,10 @@ h4{
     color: #555252;
     background-color: #fff;
     font-style: italic;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Kanit', sans-serif;
     font-size: 0;
+   
+  border-radius:5px;
 }
 
 .description{
@@ -68,10 +70,11 @@ h4{
     left: 40px;
     color: #555252;
     background-color: #fff;
-    font-family: 'Libre Baskerville', serif;
+  font-family: 'Kanit', sans-serif;
     font-size: 0;
     font-style: italic;
-
+  
+  border-radius:5px;
 }
 
 .price{
@@ -80,10 +83,12 @@ bottom: 40px;
 left: 40px;
 color: #555252;
 background-color: #fff;
-font-family: 'Libre Baskerville', serif;
+font-family: 'Kanit', sans-serif;
 font-size: 0;
 font-style: italic;
 border-radius: 2px;
+   
+  border-radius:5px;
 }
 
 .selected h4{
@@ -104,7 +109,7 @@ border-radius: 2px;
     justify-content: center;
     font-size: 30px;
     color: #fff;
-    font-family: 'Merriweather', serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .containerTwo{
@@ -116,7 +121,7 @@ border-radius: 2px;
 label{
     font-size: 20px;
     color: #fff;
-    font-style: italic;
+    font-family: 'Kanit', sans-serif;
     margin: 5px;
 }
 
@@ -124,7 +129,7 @@ label{
    padding: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Merriweather', serif;
+    font-family: 'Kanit', sans-serif;
     margin: 5px;
 }
 #message{
@@ -135,7 +140,7 @@ label{
 input{
     padding: 10px;
     margin: 5px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Kanit', sans-serif;
     
 }
 .btn{
@@ -147,10 +152,15 @@ input{
     text-orientation: center;
     padding: 10px;
     margin: 5px;
-    font-family: 'Merriweather', serif;
+   font-family: 'Kanit', sans-serif;
     border-radius: 5px;
 }
 
+
+.btn:hover{
+  background-color: #000000;
+  color: #fff;
+}
 
    .italic{
     font-style: italic;
@@ -163,7 +173,7 @@ input{
    .footerRolex{
     color: rgb(182, 180, 180);
     font-size: 8px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Kanit', sans-serif;
    }
 
 
