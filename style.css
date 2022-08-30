@@ -37,11 +37,13 @@ input.btn{
 }
 
 
-
+.main{
+   width: 100%;
+}
 
 .container{
 display: flex;
-  width:100%;
+ 
 }
 
 .one{
@@ -250,7 +252,7 @@ label{
 }
 
 .selected{
-    flex:1;
+    flex:4;
 }
   .btn{
    
