@@ -1,3 +1,14 @@
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+
 body{
     background-color: #212121;
 }
@@ -21,9 +32,12 @@ h1{
   color: #fff;
 }
 
-h4, p{
+h4, {
 color: #212121;
 font-family: 'Kanit', sans-serif;
+}
+p {
+ color:white;
 }
 
 
