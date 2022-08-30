@@ -4,8 +4,11 @@ body{
 
 
 
-nav{
+nav, .main, .containerTwo, .headingTwo{
     background-color: #212121;
+}
+.headingTwo{
+  margin-top:
 }
 .heading{
     display:flex;
