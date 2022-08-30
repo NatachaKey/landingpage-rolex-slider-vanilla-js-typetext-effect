@@ -1,5 +1,3 @@
-
-
 let text= "Eres único. Rolex.";
 let i=0;
 let speed= 150;
