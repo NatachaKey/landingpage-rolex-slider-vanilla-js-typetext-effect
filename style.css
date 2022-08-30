@@ -34,6 +34,9 @@ display: flex;
     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/three.jpg?v=1656626007548);
 }
 .four{
+    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/watch1.jpg?v=1661884744922);
+}
+.five{
     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/four.jpg?v=1656626006471);
 }
 
@@ -116,14 +119,14 @@ border-radius: 2px;
 label{
     font-size: 20px;
     color: #fff;
-    font-style: italic;
+    
     margin: 5px;
 }
 
  textarea{
    padding: 10px;
     color: #000000;
-    font-style: italic;
+    
     font-family: 'Merriweather', serif;
     margin: 5px;
 }
@@ -152,9 +155,7 @@ input{
 }
 
 
-   .italic{
-    font-style: italic;
-   }
+   
 
    .footerPosition{
     display: flex;

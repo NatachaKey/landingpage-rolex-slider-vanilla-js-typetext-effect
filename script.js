@@ -1,3 +1,8 @@
+gsap.from(".container", {y:600, delay:.2, duration:3, opacity:0.5, ease:"power4.out"})
+gsap.from(".headingTwo", {x:100, delay:.7, duration:3, opacity:0, ease:"power4.out"})
+gsap.from(".containerTwo", {x:-300, delay:.7, duration:3, opacity:0, ease:"power4.out"})
+
+
 let text= "Eres único. Rolex.";
 let i=0;
 let speed= 150;
