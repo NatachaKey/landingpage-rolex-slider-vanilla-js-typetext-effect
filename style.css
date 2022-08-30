@@ -36,6 +36,9 @@ display: flex;
 .four{
     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/four.jpg?v=1656626006471);
 }
+.five{
+  background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/watch1.jpg?v=1661877981404);
+}
 
 .item{
     background-size: cover;
