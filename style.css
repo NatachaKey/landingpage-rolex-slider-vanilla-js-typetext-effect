@@ -1,43 +1,22 @@
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
-
-
 body{
     background-color: #212121;
 }
 
 
-
-nav, .main, .containerTwo, .headingTwo, #footer{
-    background-color: #212121;
-}
-.headingTwo{
-  margin-top:px;
-}
 .heading{
     display:flex;
     justify-content: center;
 }
 
 h1{
-  font-family: 'Kanit', sans-serif;
+  font-family: 'Libre Baskerville', serif;
   font-size:60px;
   color: #fff;
 }
 
-h4, {
+h4, p{
 color: #212121;
-font-family: 'Kanit', sans-serif;
-}
-p {
- color:white;
+font-family: 'Libre Baskerville', serif;
 }
 
 
@@ -55,11 +34,7 @@ display: flex;
     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/three.jpg?v=1656626007548);
 }
 .four{
-    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/watch1.jpg?v=1661877981404);
-  
-}
-.five{
-   background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/four.jpg?v=1656626006471);
+    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/four.jpg?v=1656626006471);
 }
 
 .item{
@@ -78,28 +53,25 @@ display: flex;
 
 h4{
     position: absolute;
-    top: 80px;
+    top: 15px;
     left: 40px;
     color: #555252;
     background-color: #fff;
     font-style: italic;
-    
+    font-family: 'Libre Baskerville', serif;
     font-size: 0;
-   
-  border-radius:5px;
 }
 
 .description{
     position: absolute;
-    top: 120px;
+    top: 100px;
     left: 40px;
     color: #555252;
     background-color: #fff;
-  font-family: 'Kanit', sans-serif;
+    font-family: 'Libre Baskerville', serif;
     font-size: 0;
     font-style: italic;
-  
-  border-radius:5px;
+
 }
 
 .price{
@@ -108,20 +80,18 @@ bottom: 40px;
 left: 40px;
 color: #555252;
 background-color: #fff;
-font-family: 'Kanit', sans-serif;
+font-family: 'Libre Baskerville', serif;
 font-size: 0;
 font-style: italic;
 border-radius: 2px;
-   
-  border-radius:5px;
 }
 
 .selected h4{
-    font-size: 25px;
+    font-size: 30px;
     transition: all 1s ease-in;
 }
 .selected .description{
-    font-size: 25px;
+    font-size: 20px;
     transition: all 1s ease-in;
 }
 .selected .price {
@@ -134,7 +104,7 @@ border-radius: 2px;
     justify-content: center;
     font-size: 30px;
     color: #fff;
-    
+    font-family: 'Merriweather', serif;
 }
 
 .containerTwo{
@@ -146,7 +116,7 @@ border-radius: 2px;
 label{
     font-size: 20px;
     color: #fff;
-    font-family: 'Kanit', sans-serif;
+    font-style: italic;
     margin: 5px;
 }
 
@@ -154,7 +124,7 @@ label{
    padding: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
     margin: 5px;
 }
 #message{
@@ -165,7 +135,7 @@ label{
 input{
     padding: 10px;
     margin: 5px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
     
 }
 .btn{
@@ -177,15 +147,10 @@ input{
     text-orientation: center;
     padding: 10px;
     margin: 5px;
-   font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
     border-radius: 5px;
 }
 
-
-.btn:hover{
-  background-color: #000000;
-  color: #fff;
-}
 
    .italic{
     font-style: italic;
@@ -198,7 +163,7 @@ input{
    .footerRolex{
     color: rgb(182, 180, 180);
     font-size: 8px;
-    font-family: 'Kanit', sans-serif;
+    font-family: 'Merriweather', serif;
    }
 
 
