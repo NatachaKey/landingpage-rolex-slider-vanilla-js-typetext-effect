@@ -146,7 +146,7 @@ border-radius: 2px;
 label{
     font-size: 20px;
     color: #fff;
-    font-family: 'Kanit', sans-serif;
+    
     margin: 5px;
 }
 
@@ -154,7 +154,7 @@ label{
    padding: 10px;
     color: #000000;
     font-style: italic;
-    font-family: 'Kanit', sans-serif;
+   
     margin: 5px;
 }
 #message{
@@ -165,26 +165,26 @@ label{
 input{
     padding: 10px;
     margin: 5px;
-    font-family: 'Kanit', sans-serif;
+    
     
 }
 .btn{
-    color: #000000;
+    background-color: #000000;
     font-weight: bolder;
     text-transform: uppercase;
-    background-color: #fff;
+    color: #fff;
     width: 95%;
     text-orientation: center;
     padding: 10px;
     margin: 5px;
-   font-family: 'Kanit', sans-serif;
+  
     border-radius: 5px;
 }
 
 
 .btn:hover{
-  background-color: #000000;
-  color: #fff;
+color: #000000;
+    background-color: #fff;
 }
 
    .italic{
@@ -198,7 +198,7 @@ input{
    .footerRolex{
     color: rgb(182, 180, 180);
     font-size: 8px;
-    font-family: 'Kanit', sans-serif;
+    
    }
 
 
