@@ -1,12 +1,4 @@
-.footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: red;
-   color: white;
-   text-align: center;
-}
+
 
 
 body{
@@ -27,22 +19,29 @@ nav, .main, .containerTwo, .headingTwo, #footer{
 }
 
 h1{
-  font-family: 'Kanit', sans-serif;
+ 
   font-size:60px;
   color: #fff;
 }
 
 h4, {
 color: #212121;
-font-family: 'Kanit', sans-serif;
+
 }
-p {
+p  {
  color:white;
 }
+
+input.btn{
+  color: #fff;
+}
+
+
 
 
 .container{
 display: flex;
+  width:100%;
 }
 
 .one{
@@ -95,7 +94,7 @@ h4{
     left: 40px;
     color: #555252;
     background-color: #fff;
-  font-family: 'Kanit', sans-serif;
+  
     font-size: 0;
     font-style: italic;
   
@@ -108,7 +107,6 @@ bottom: 40px;
 left: 40px;
 color: #555252;
 background-color: #fff;
-font-family: 'Kanit', sans-serif;
 font-size: 0;
 font-style: italic;
 border-radius: 2px;
@@ -153,7 +151,7 @@ label{
  textarea{
    padding: 10px;
     color: #000000;
-    font-style: italic;
+    
    
     margin: 5px;
 }
@@ -162,34 +160,22 @@ label{
     margin: 5px;
 }
 
-input{
-    padding: 10px;
-    margin: 5px;
-    
-    
-}
+
 .btn{
-    background-color: #000000;
+    color: #fff;
     font-weight: bolder;
     text-transform: uppercase;
-    color: #fff;
     width: 95%;
     text-orientation: center;
     padding: 10px;
     margin: 5px;
-  
     border-radius: 5px;
 }
 
 
-.btn:hover{
-color: #000000;
-    background-color: #fff;
-}
 
-   .italic{
-    font-style: italic;
-   }
+
+   
 
    .footerPosition{
     display: flex;
@@ -264,12 +250,8 @@ color: #000000;
 }
 
 .selected{
-    flex:4;
+    flex:1;
 }
-  .space{
-   
-    font-size:30px;
-  }
   .btn{
    
     font-size: 15px;
