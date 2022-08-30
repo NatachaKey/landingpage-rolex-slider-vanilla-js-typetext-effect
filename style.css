@@ -9,14 +9,14 @@ body{
 }
 
 h1{
-  font-family: 'Libre Baskerville', serif;
+  font-family: 'Archivo Black', sans-serif;
   font-size:60px;
   color: #fff;
 }
 
 h4, p{
 color: #212121;
-font-family: 'Libre Baskerville', serif;
+font-family: 'Archivo Black', sans-serif;
 }
 
 
@@ -60,8 +60,7 @@ h4{
     left: 40px;
     color: #555252;
     background-color: #fff;
-    font-style: italic;
-    font-family: 'Libre Baskerville', serif;
+        font-family: 'Archivo Black', sans-serif;
     font-size: 0;
 }
 
@@ -71,9 +70,9 @@ h4{
     left: 40px;
     color: #555252;
     background-color: #fff;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Archivo Black', sans-serif;
     font-size: 0;
-    font-style: italic;
+    
 
 }
 
@@ -83,9 +82,9 @@ bottom: 40px;
 left: 40px;
 color: #555252;
 background-color: #fff;
-font-family: 'Libre Baskerville', serif;
+font-family: 'Archivo Black', sans-serif;
 font-size: 0;
-font-style: italic;
+
 border-radius: 2px;
 }
 
@@ -107,7 +106,7 @@ border-radius: 2px;
     justify-content: center;
     font-size: 30px;
     color: #fff;
-    font-family: 'Merriweather', serif;
+    font-family: 'Archivo Black', sans-serif;
 }
 
 .containerTwo{
@@ -119,7 +118,7 @@ border-radius: 2px;
 label{
     font-size: 20px;
     color: #fff;
-    
+    font-family: 'Archivo Black', sans-serif;
     margin: 5px;
 }
 
@@ -127,7 +126,7 @@ label{
    padding: 10px;
     color: #000000;
     
-    font-family: 'Merriweather', serif;
+    font-family: 'Archivo Black', sans-serif;
     margin: 5px;
 }
 #message{
@@ -138,9 +137,11 @@ label{
 input{
     padding: 10px;
     margin: 5px;
-    font-family: 'Merriweather', serif;
+   font-family: 'Archivo Black', sans-serif;
     
 }
+
+
 .btn{
     color: #000000;
     font-weight: bolder;
@@ -150,11 +151,15 @@ input{
     text-orientation: center;
     padding: 10px;
     margin: 5px;
-    font-family: 'Merriweather', serif;
+  font-family: 'Archivo Black', sans-serif;
     border-radius: 5px;
 }
 
-
+.btn:hover{
+  color: #fff;
+   
+    background-color: #000000;
+}
    
 
    .footerPosition{
@@ -164,16 +169,16 @@ input{
    .footerRolex{
     color: rgb(182, 180, 180);
     font-size: 8px;
-    font-family: 'Merriweather', serif;
+    font-family: 'Archivo Black', sans-serif;
    }
 
 
 @media all and (max-width:800px){
   h1{
-    font-size:30px;
+    font-size:25px;
   }
   .selected h4{
-    font-size: 20px;
+    font-size: 10px;
     
 }
 .selected .description{
