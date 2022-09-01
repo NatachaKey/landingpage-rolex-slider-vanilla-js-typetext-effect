@@ -173,13 +173,16 @@ input{
    }
 
 
-
-
-
-
 @media all and (max-width:500px){
+  h3{
+    font-size:20px;
+  }
+  label{
+    font-size:12px;
+  }
   h1{
-   font-size:35px;
+   font-size:28px;
+    text-transform: uppercase;
     font-weight:bolder;
     text-align:center;
   }
