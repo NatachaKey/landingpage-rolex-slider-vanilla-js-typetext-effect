@@ -1,7 +1,7 @@
-gsap.from(".container", {y:600, delay:3, duration:3, opacity:0, ease:"power4.out"})
-gsap.from(".headingTwo", {x:100, delay:4, duration:5, opacity:0, ease:"power4.out"})
-gsap.from(".containerTwo", {x:-300, delay:4, duration:5, opacity:0, ease:"power4.out"})
-gsap.from(".footerRolex", {y:50, delay:5.5, duration:5, opacity:0, ease:"power4.out"})
+gsap.from(".container", {y:600, delay:3, duration:3, opacity:0, ease:"power4.out"});
+gsap.from(".headingTwo", {x:100, delay:4, duration:5, opacity:0, ease:"power4.out"});
+gsap.from(".containerTwo", {x:-300, delay:4, duration:5, opacity:0, ease:"power4.out"});
+gsap.from(".footerRolex", {y:50, delay:5.5, duration:5, opacity:0, ease:"power4.out"});
 
 let text= "Eres único. Rolex.";
 let i=0;
@@ -11,7 +11,6 @@ function type(){
         document.querySelector('#par').textContent+=text.charAt(i);
         i++;
         setTimeout(type, speed);
-
     }
 }
 type();

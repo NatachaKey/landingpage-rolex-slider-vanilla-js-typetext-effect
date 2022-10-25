@@ -1,235 +1,198 @@
 body{
-    background-color: #212121;
+     background-color: #212121;
 }
-
-
-.heading{
-    display:flex;
-    justify-content: center;
+ .heading{
+     display:flex;
+     justify-content: center;
 }
-
-h1{
-  font-family: 'Archivo Black', sans-serif;
-  font-size:60px;
-  color: #fff;
+ h1{
+     font-family: 'Archivo Black', sans-serif;
+     font-size:60px;
+     color: #fff;
 }
-
-h4, p{
-color: #212121;
-font-family: 'Archivo Black', sans-serif;
+ h4, p{
+     color: #212121;
+     font-family: 'Archivo Black', sans-serif;
 }
-
-
-.container{
-display: flex;
+ .container{
+     display: flex;
 }
-
-.one{
-    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/one.jpg?v=1656626006333);
+ .one{
+     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/one.jpg?v=1656626006333);
 }
-.two{
-    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/two.jpg?v=1656626008048);
+ .two{
+     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/two.jpg?v=1656626008048);
 }
-.three{
-    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/three.jpg?v=1656626007548);
+ .three{
+     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/three.jpg?v=1656626007548);
 }
-.four{
-    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/watch1.jpg?v=1661884744922);
+ .four{
+     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/watch1.jpg?v=1661884744922);
 }
-.five{
-    background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/four.jpg?v=1656626006471);
+ .five{
+     background-image: url(https://cdn.glitch.global/0b774fe8-8eeb-4965-8211-e7846dc1c6d0/four.jpg?v=1656626006471);
 }
-
-.item{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 1;
-    margin: 5px;
-    height: 80vh;
-    position: relative;
+ .item{
+     background-size: cover;
+     background-repeat: no-repeat;
+     background-position: center;
+     flex: 1;
+     margin: 5px;
+     height: 80vh;
+     position: relative;
 }
-
-.selected{
-    flex:3;
+ .selected{
+     flex:3;
 }
-
-h4{
-    position: absolute;
-    top: 15px;
-    left: 40px;
-    color: #555252;
-    background-color: #fff;
-        font-family: 'Archivo Black', sans-serif;
-    font-size: 0;
+ h4{
+     position: absolute;
+     top: 15px;
+     left: 40px;
+     color: #555252;
+     background-color: #fff;
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 0;
 }
-
-.description{
-    position: absolute;
-    top: 100px;
-    left: 40px;
-    color: #555252;
-    background-color: #fff;
-    font-family: 'Archivo Black', sans-serif;
-    font-size: 0;
-    
-
+ .description{
+     position: absolute;
+     top: 100px;
+     left: 40px;
+     color: #555252;
+     background-color: #fff;
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 0;
 }
-
-.price{
-position: absolute;
-bottom: 40px;
-left: 40px;
-color: #555252;
-background-color: #fff;
-font-family: 'Archivo Black', sans-serif;
-font-size: 0;
-
-border-radius: 2px;
+ .price{
+     position: absolute;
+     bottom: 40px;
+     left: 40px;
+     color: #555252;
+     background-color: #fff;
+     font-family: 'Archivo Black', sans-serif;
+     font-size: 0;
+     border-radius: 2px;
 }
-
-.selected h4{
-    font-size: 30px;
-    transition: all 1s ease-in;
+ .selected h4{
+     font-size: 30px;
+     transition: all 1s ease-in;
 }
-.selected .description{
-    font-size: 20px;
-    transition: all 1s ease-in;
+ .selected .description{
+     font-size: 20px;
+     transition: all 1s ease-in;
 }
-.selected .price {
-    font-size: 20px;
-    transition: all 2s ease-in-out;
+ .selected .price {
+     font-size: 20px;
+     transition: all 2s ease-in-out;
 }
-
-.headingTwo{
-    display: flex;
-    justify-content: center;
-    font-size: 30px;
-    color: #fff;
-    font-family: 'Archivo Black', sans-serif;
+ .headingTwo{
+     display: flex;
+     justify-content: center;
+     font-size: 30px;
+     color: #fff;
+     font-family: 'Archivo Black', sans-serif;
 }
-
-.containerTwo{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+ .containerTwo{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
 }
-
-label{
-    font-size: 20px;
-    color: #fff;
-    font-family: 'Archivo Black', sans-serif;
-    margin: 5px;
+ label{
+     font-size: 20px;
+     color: #fff;
+     font-family: 'Archivo Black', sans-serif;
+     margin: 5px;
 }
-
  textarea{
-   padding: 10px;
-    color: #000000;
-    
-    font-family: 'Archivo Black', sans-serif;
-    margin: 5px;
+     padding: 10px;
+     color: #000000;
+     font-family: 'Archivo Black', sans-serif;
+     margin: 5px;
 }
-#message{
-    width: 90%;
-    margin: 5px;
+ #message{
+     width: 90%;
+     margin: 5px;
 }
-
-input{
-    padding: 10px;
-    margin: 5px;
-   font-family: 'Archivo Black', sans-serif;
-    
+ input{
+     padding: 10px;
+     margin: 5px;
+     font-family: 'Archivo Black', sans-serif;
 }
-
-
-.btn{
-    color: #000000;
-    font-weight: bolder;
-    text-transform: uppercase;
-    background-color: #fff;
-    width: 95%;
-    text-orientation: center;
-    padding: 10px;
-    margin: 5px;
-  font-family: 'Archivo Black', sans-serif;
-    border-radius: 5px;
+ .btn{
+     color: #000000;
+     font-weight: bolder;
+     text-transform: uppercase;
+     background-color: #fff;
+     width: 95%;
+     text-orientation: center;
+     padding: 10px;
+     margin: 5px;
+     font-family: 'Archivo Black', sans-serif;
+     border-radius: 5px;
 }
-
-.btn:hover{
-  color: #fff;
-   
-    background-color: #000000;
+ .btn:hover{
+     color: #fff;
+     background-color: #000000;
 }
-   
-
-   .footerPosition{
-    display: flex;
-    justify-content: center;
-   }
-   .footerRolex{
-    color: rgb(182, 180, 180);
-    font-size: 8px;
-    font-family: 'Archivo Black', sans-serif;
-   }
-
-
-@media all and (max-width:500px){
-  h3{
-    font-size:20px;
-  }
-  label{
-    font-size:12px;
-  }
-  h1{
-   font-size:28px;
-    text-transform: uppercase;
-    font-weight:bolder;
-    text-align:center;
-  }
-  
-  .selected h4{
-    font-size: 20px;
-    
+ .footerPosition{
+     display: flex;
+     justify-content: center;
 }
-.selected .description{
-    font-size: 12px;
-    
-}
-  h4, .price, .description{
-    position: absolute;
-    left:0;
-  } 
-  h3{
-    text-align:center;
-  }
-  
-  .italic{
-    width:90%;
-  }
-  .footerRolex{
-    text-align:center;
-  }
-  .item{
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex: 1;
-    margin: 5px;
-    height: 80vh;
-    width:100%;
-    position: relative;
+ .footerRolex{
+     color: rgb(182, 180, 180);
+     font-size: 8px;
+     font-family: 'Archivo Black', sans-serif;
 }
 
-.selected{
-    flex:4;
-}
-  .space{
-   
-    font-size:30px;
-  }
-  .btn{
-   
-    font-size: 15px;
-    width:95%
-}
+ @media all and (max-width:500px){
+     h3{
+         font-size:20px;
+    }
+     label{
+         font-size:12px;
+    }
+     h1{
+         font-size:28px;
+         text-transform: uppercase;
+         font-weight:bolder;
+         text-align:center;
+    }
+     .selected h4{
+         font-size: 20px;
+    }
+     .selected .description{
+         font-size: 12px;
+    }
+     h4, .price, .description{
+         position: absolute;
+         left:0;
+    }
+     h3{
+         text-align:center;
+    }
+     .italic{
+         width:90%;
+    }
+     .footerRolex{
+         text-align:center;
+    }
+     .item{
+         background-size: cover;
+         background-repeat: no-repeat;
+         background-position: center;
+         flex: 1;
+         margin: 5px;
+         height: 80vh;
+         width:100%;
+         position: relative;
+    }
+     .selected{
+         flex:4;
+    }
+     .space{
+         font-size:30px;
+    }
+     .btn{
+         font-size: 15px;
+         width:95% 
+    }
 }
